@@ -9,6 +9,8 @@ import scrapy
 
 
 class DouyuItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    room_link = scrapy.Field()
+    image_link = scrapy.Field()
+    nick_name = scrapy.Field()
+    anchor_city = scrapy.Field()
+    image_path = scrapy.Field()
